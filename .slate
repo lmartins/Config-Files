@@ -18,17 +18,20 @@ alias leftthird move screenOriginX;screenOriginY screenSizeX*0.40;screenSizeY
 alias rightthird move screenOriginX+screenSizeX*0.40;screenOriginY screenSizeX*0.60;screenSizeY
 
 # Numpad location Bindings
-bind pad1:shift;ctrl ${bottomleft}
-bind pad2:shift;ctrl push bottom bar-resize:screenSizeY/2
-bind pad3:shift;ctrl ${bottomright}
-bind pad4:shift;ctrl ${lefthalf}
-bind pad4:shift;ctrl;alt ${leftthird}
-bind pad5:shift;ctrl ${full}
-bind pad6:shift;ctrl ${righthalf}
-bind pad6:shift;ctrl;alt ${rightthird}
-bind pad7:shift;ctrl ${topleft}
-bind pad8:shift;ctrl push top bar-resize:screenSizeY/2
-bind pad9:shift;ctrl ${topright}
+bind pad1:ctrl;alt ${bottomleft}
+bind pad2:ctrl;alt push bottom bar-resize:screenSizeY/2
+bind pad3:ctrl;alt ${bottomright}
+bind pad4:ctrl;alt ${leftthird}
+bind pad5:ctrl;alt ${full}
+bind pad6:ctrl;alt ${rightthird}
+bind pad7:ctrl;alt ${topleft}
+bind pad8:ctrl;alt push top bar-resize:screenSizeY/2
+bind pad9:ctrl;alt ${topright}
+
+bind up:ctrl;alt ${full}
+bind left:ctrl;alt ${lefthalf}
+bind right:ctrl;alt ${righthalf}
+
 
 # LAYOUTS
 layout 1monitor 'Sublime Text 2':REPEAT ${leftthird}
