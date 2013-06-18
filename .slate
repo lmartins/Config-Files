@@ -18,19 +18,19 @@ alias leftthird move screenOriginX;screenOriginY screenSizeX*0.40;screenSizeY
 alias rightthird move screenOriginX+screenSizeX*0.40;screenOriginY screenSizeX*0.60;screenSizeY
 
 # Numpad location Bindings
-bind pad1:ctrl;alt ${bottomleft}
-bind pad2:ctrl;alt push bottom bar-resize:screenSizeY/2
-bind pad3:ctrl;alt ${bottomright}
-bind pad4:ctrl;alt ${leftthird}
-bind pad5:ctrl;alt ${full}
-bind pad6:ctrl;alt ${rightthird}
-bind pad7:ctrl;alt ${topleft}
-bind pad8:ctrl;alt push top bar-resize:screenSizeY/2
-bind pad9:ctrl;alt ${topright}
+bind pad1:ctrl;shift ${bottomleft}
+bind pad2:ctrl;shift push bottom bar-resize:screenSizeY/2
+bind pad3:ctrl;shift ${bottomright}
+bind pad4:ctrl;shift ${leftthird}
+bind pad5:ctrl;shift ${full}
+bind pad6:ctrl;shift ${rightthird}
+bind pad7:ctrl;shift ${topleft}
+bind pad8:ctrl;shift push top bar-resize:screenSizeY/2
+bind pad9:ctrl;shift ${topright}
 
-bind up:ctrl;alt ${full}
-bind left:ctrl;alt ${lefthalf}
-bind right:ctrl;alt ${righthalf}
+bind up:ctrl;shift ${full}
+bind left:ctrl;shift ${lefthalf}
+bind right:ctrl;shift ${righthalf}
 
 
 # LAYOUTS
