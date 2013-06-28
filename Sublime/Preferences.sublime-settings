@@ -1,0 +1,62 @@
+{
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Base16/base16-ocean.dark.tmTheme",
+	"folder_exclude_patterns":
+	[
+		".git",
+		".sass-cache",
+		"coverage",
+		"log",
+		"tmp",
+		"node_modules"
+	],
+	"font_face": "Ubuntu Mono",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 13.5,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"phoenix_color_blue": true,
+	"phoenix_color_expanded_folder": true,
+	"phoenix_dirty_bottom_bar": true,
+	"phoenix_dirty_bottom_bar_red": true,
+	"phoenix_eighties": true,
+	"phoenix_highlight_current_tab": true,
+	"phoenix_sidebar_tree_large": true,
+	"phoenix_solid_current_tab": true,
+	"phoenix_tabs_auto_width": true,
+	"phoenix_tabs_xlarge": true,
+	"reveal-on-activate": false,
+	"save_on_focus_lost": false,
+	"scroll_past_end": true,
+	"soda_classic_tabs": false,
+	"tab_size": 2,
+	"theme": "Phoenix Dark.sublime-theme",
+	"todo":
+	{
+		"case_sensitive": true,
+		"folder_exclude_patterns":
+		[
+			"components",
+			"css-src/libs/",
+			"libs"
+		],
+		"patterns":
+		{
+			"CHANGED": "CHANGED[\\s]*?:+(?P<changed>\\S.*)$",
+			"FIXME": "FIX ?ME[\\s]*?:+(?P<fixme>\\S.*)$",
+			"TODO": "TODO[\\s]*?:+(?P<todo>.*)$"
+		}
+	},
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}

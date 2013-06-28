@@ -1,0 +1,27 @@
+[
+    {
+	    "class": "tabset_control",
+	    "tab_height": 46
+	},
+	{
+	    "class": "tab_label",
+	    "settings": ["highlight_modified_tabs"],
+	    "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+	    "fg": [120, 170, 250]
+	},
+
+//
+// SIDEBAR
+//
+
+	// Sidebar entry selected
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "color": [110, 190, 210],
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, 1]
+    }
+
+
+]

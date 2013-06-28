@@ -1,0 +1,34 @@
+[
+	{ "keys": ["super+shift+o"], "command": "file_navigator" },
+
+	{ "keys": ["ctrl+t"], "command": "side_bar_new_file2" },
+
+    { "keys": ["ctrl+shift+super+i"], "command": "swi_debug" },
+
+    { "keys": ["f2"], "command": "side_bar_rename" },
+    { "keys": ["ctrl+alt+f"], "command": "side_bar_find_files_path_containing" },
+
+	{ "keys": ["super+."], "command": "close_tag" },
+
+	{ "keys": ["super+shift+w"], "command": "file_close_others", "caption": "File: Close Others" },
+    { "keys": ["super+control+w"], "command": "file_close_to_right", "caption": "File: Close To The Right" },
+
+    { "keys": ["super+shift+n"], "command": "clone_file" },
+
+    { "keys": ["shift+super+r"], "command": "reveal_in_side_bar"},
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+  	{ "keys": ["super+shift+v"], "command": "paste" },
+
+    { "keys": ["super+alt+8"], "command": "fold" },
+    { "keys": ["super+alt+9"], "command": "unfold" },
+
+    { "keys": ["super+shift+control+g"], "command": "git_status" },
+    { "keys": ["super+shift+control+p"], "command": "git_push_current_branch" },
+    { "keys": ["super+shift+control+s"], "command": "legit_sync" },
+    { "keys": ["super+shift+alt+control+p"], "command": "git_pull_current_branch" },
+
+    { "keys": ["shift+ctrl+e"], "command": "feeling_lucky_css" },
+    { "keys": ["shift+alt+e"], "command": "feeling_lucky_js" },
+    { "keys": ["super+ctrl+e"], "command": "make_config_dot_feeling_lucky" }
+
+]
