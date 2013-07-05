@@ -18,19 +18,19 @@ alias leftthird move screenOriginX;screenOriginY screenSizeX*0.40;screenSizeY
 alias rightthird move screenOriginX+screenSizeX*0.40;screenOriginY screenSizeX*0.60;screenSizeY
 
 # Numpad location Bindings
-bind pad1:ctrl;shift ${bottomleft}
-bind pad2:ctrl;shift push bottom bar-resize:screenSizeY/2
-bind pad3:ctrl;shift ${bottomright}
-bind pad4:ctrl;shift ${leftthird}
-bind pad5:ctrl;shift ${full}
-bind pad6:ctrl;shift ${rightthird}
-bind pad7:ctrl;shift ${topleft}
-bind pad8:ctrl;shift push top bar-resize:screenSizeY/2
-bind pad9:ctrl;shift ${topright}
+bind pad1:ctrl;alt ${bottomleft}
+bind pad2:ctrl;alt push bottom bar-resize:screenSizeY/2
+bind pad3:ctrl;alt ${bottomright}
+bind pad4:ctrl;alt ${leftthird}
+bind pad5:ctrl;alt ${full}
+bind pad6:ctrl;alt ${rightthird}
+bind pad7:ctrl;alt ${topleft}
+bind pad8:ctrl;alt push top bar-resize:screenSizeY/2
+bind pad9:ctrl;alt ${topright}
 
-bind up:ctrl;shift ${full}
-bind left:ctrl;shift ${lefthalf}
-bind right:ctrl;shift ${righthalf}
+bind up:ctrl;alt ${full}
+bind left:ctrl;alt ${lefthalf}
+bind right:ctrl;alt ${righthalf}
 
 
 # LAYOUTS
@@ -38,27 +38,27 @@ layout 1monitor 'Sublime Text 2':REPEAT ${leftthird}
 layout 1monitor 'Google Chrome':REPEAT ${rightthird}
 
 # LAYOUTS KEY BINDINGS
-bind l:shift;ctrl layout 1monitor
+bind l:alt;ctrl layout 1monitor
 
 
 # Resize Bindings
-bind right:shift;ctrl;alt       resize +5% +0
-bind left:shift;ctrl;alt        resize -5% +0
-bind up:shift;ctrl;alt          resize +0   -5%
-bind down:shift;ctrl;alt        resize +0   +5%
+bind right:alt;ctrl;cmd       resize +5% +0
+bind left:alt;ctrl;cmd        resize -5% +0
+bind up:alt;ctrl;cmd         resize +0   -5%
+bind down:alt;ctrl;cmd        resize +0   +5%
 # bind right:ctrl;alt  resize -5% +0 bottom-right
 # bind left:ctrl;alt   resize +5% +0 bottom-right
 # bind up:ctrl;alt     resize +0   +5% bottom-right
 # bind down:ctrl;alt   resize +0   -5% bottom-right
 
 # Push Bindings
-bind right:ctrl;cmd  push right bar-resize:screenSizeX/3
-bind left:ctrl;cmd   push left  bar-resize:screenSizeX/3
-bind up:ctrl;cmd     push up    bar-resize:screenSizeY/2
-bind down:ctrl;cmd   push down  bar-resize:screenSizeY/2
-
-bind right:shift;ctrl;cmd  push right bar-resize:screenSizeX/3*2
-bind left:shift;ctrl;cmd   push left  bar-resize:screenSizeX/3*2
+# bind right:ctrl;cmd  push right bar-resize:screenSizeX/3
+# bind left:ctrl;cmd   push left  bar-resize:screenSizeX/3
+# bind up:ctrl;cmd     push up    bar-resize:screenSizeY/2
+# bind down:ctrl;cmd   push down  bar-resize:screenSizeY/2
+#
+# bind right:shift;ctrl;cmd  push right bar-resize:screenSizeX/3*2
+# bind left:shift;ctrl;cmd   push left  bar-resize:screenSizeX/3*2
 # bind up:shift;ctrl;cmd     push up    bar-resize:screenSizeY/2
 # bind down:shift;ctrl;cmd   push down  bar-resize:screenSizeY/2
 
