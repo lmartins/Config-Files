@@ -18,19 +18,20 @@ alias leftthird move screenOriginX;screenOriginY screenSizeX*0.40;screenSizeY
 alias rightthird move screenOriginX+screenSizeX*0.40;screenOriginY screenSizeX*0.60;screenSizeY
 
 # Numpad location Bindings
-bind pad1:ctrl;alt ${bottomleft}
-bind pad2:ctrl;alt push bottom bar-resize:screenSizeY/2
-bind pad3:ctrl;alt ${bottomright}
-bind pad4:ctrl;alt ${leftthird}
-bind pad5:ctrl;alt ${full}
-bind pad6:ctrl;alt ${rightthird}
-bind pad7:ctrl;alt ${topleft}
-bind pad8:ctrl;alt push top bar-resize:screenSizeY/2
-bind pad9:ctrl;alt ${topright}
+# bind pad1:ctrl;alt ${bottomleft}
+# bind pad2:ctrl;alt push bottom bar-resize:screenSizeY/2
+# bind pad3:ctrl;alt ${bottomright}
+# bind pad5:ctrl;alt ${full}
+# bind pad7:ctrl;alt ${topleft}
+# bind pad8:ctrl;alt push top bar-resize:screenSizeY/2
+# bind pad9:ctrl;alt ${topright}
 
-bind up:ctrl;alt ${full}
-bind left:ctrl;alt ${lefthalf}
-bind right:ctrl;alt ${righthalf}
+bind left:ctrl;alt;shift ${leftthird}
+bind right:ctrl;alt;shift ${rightthird}
+
+# bind up:ctrl;alt ${full}
+# bind left:ctrl;alt ${lefthalf}
+# bind right:ctrl;alt ${righthalf}
 
 
 # LAYOUTS
@@ -63,10 +64,10 @@ bind down:alt;ctrl;cmd        resize +0   +5%
 # bind down:shift;ctrl;cmd   push down  bar-resize:screenSizeY/2
 
 # Nudge Bindings
-# bind right:shift;alt nudge +5% +0
-# bind left:shift;alt  nudge -5% +0
-# bind up:shift;alt    nudge +0   -5%
-# bind down:shift;alt  nudge +0   +5%
+bind right:ctrl;cmd nudge +5% +0
+bind left:ctrl;cmd  nudge -5% +0
+bind up:ctrl;cmd    nudge +0   -5%
+bind down:ctrl;cmd  nudge +0   +5%
 
 # Throw Bindings
 # bind 1:ctrl;alt         throw 0 resize
@@ -78,12 +79,12 @@ bind down:alt;ctrl;cmd        resize +0   +5%
 # bind down:ctrl;alt;cmd  throw down  resize
 
 # Focus Bindings
-bind right:ctrl    focus right
-bind left:ctrl     focus left
-bind up:ctrl       focus up
-bind down:ctrl     focus down
-bind up:ctrl;alt   focus behind
-bind down:ctrl;alt focus behind
+# bind right:alt;shift    focus right
+# bind left:alt;shift     focus left
+# bind up:alt;shift       focus up
+# bind down:alt;shift     focus down
+# bind up:ctrl;alt       focus behind
+# bind down:ctrl;alt;shift     focus behind
 
 # Window Hints
 bind e:ctrl hint
